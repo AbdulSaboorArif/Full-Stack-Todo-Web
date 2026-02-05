@@ -1,0 +1,45 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "FastAPI backend for Todo Full-Stack Web Application"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.0",
+    "sqlmodel==0.0.32",
+    "uvicorn[standard]>=0.24.0",
+    "python-multipart>=0.0.6",
+    "python-jose[cryptography]>=3.3.0",
+    "python-dotenv>=1.0.0",
+    "alembic>=1.13.0",
+    "pylint",
+    "flake8",
+    "black",
+    "isort",
+    "mypy",
+    "passlib[bcrypt]",
+    "python-decouple",
+    "python-httpx",
+    "python-redis",
+    "python-aiofiles",
+    "python-jinja2",
+    "python-bcrypt",
+    "python-cryptography",
+    "python-asyncio",
+    "python-websockets",
+    "python-aiosqlite",
+    "python-asyncpg",
+    "python-postgresql",
+    "python-pymysql",
+    "python-sqlite",
+    "python-mypy",
+    "python-black",
+    "python-isort",
+    "python-flake8",
+    "python-pylint",
+    "python-pytest",
+    "python-pytest-asyncio",
+    "python-pytest-cov",
+    "python-pytest-mock",
+    "python-pytest-xdist",
+]
